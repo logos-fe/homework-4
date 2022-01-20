@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+.container {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    min-height: 500px;
+    min-height: 500px;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    width: 500px;
+    height: 500px;
+    background-color: #fd5e32;
+    border-radius: 12px;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #eff0f0;
+    text-align: center;
+}   
+
+.profile-block {
+    width: 230px;
+    height: 460px;
+    border-radius: 12px;
+    background-color: #ff7f50;
+    line-height: 50px;
+}
+
+.avatar {
+    width: 108px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.avatar:hover {
+    transform: rotate(-360deg);
+    transition: 700ms;
+}
+
+.statistic {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-end;
+
+    width: 230px;
+    height: 460px;
+    border-radius: 12px;
+    line-height: 143px;
+}
+
+.stat-block {
+    width: 200px;
+    height: 143px;
+    border-radius: 12px;
+    background-color: #ff7f50;
+    font-size: 20px;
+    transition: 300ms;
+}
+
+.stat-block:hover .stat-text {
+    color: #fd5e32;
+    transition: 300ms;
+}
+.stat-block:hover {
+    background-color: #e3beb5;
+    transition: 300ms;
+}
+
+.button {
+    margin: 5px;
+    padding: 10px 30px;
+    background-color: #eff0f0;
+    border: 1px solid #fd5e32;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fd5e32;
+    transition: 400ms;
+}
+
+.button:hover {
+    font-weight: 600;
+    transform: rotate(-10deg);
+    transition: 600ms;
+    border-width: 5px 1px 1px 5px;
+}
+
+.username {
+    font-size: 20px;
+}
+
+.numbers {
+    font-weight: 500;
+}
