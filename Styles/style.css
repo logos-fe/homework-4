@@ -5,7 +5,6 @@
 }
 
 .main {
-    display: flex;
     height: 500px;
     width: 500px;
     background-color: #fd5e32;
@@ -15,18 +14,17 @@
 }
 
 .leftSide {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 45%;
+    float: left;
+    text-align: center;
+    width: 225px;
+    height: 475px;
     background-color: #ff7f50;
     border-radius: 15px;
-    margin: 2.5%;
+    margin: 12.5px;
 }
 
 .leftSide img {
-    margin-bottom: 50px;
+    margin: 50px 0;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -46,7 +44,11 @@
 .leftSide h2 {
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    text-align: center;
 }
 
 .buttonLike {
@@ -57,7 +59,7 @@
     border-radius: 20px;
     background-color: #fff;
     padding: 10px 20px;
-    margin-bottom: 10px;
+    line-height: 50px;
     transition-duration: 1.1s;
 }
 
@@ -69,7 +71,7 @@
     border-radius: 20px;
     background-color: #fff;
     padding: 10px 20px;
-    margin-bottom: 10px;
+    line-height: 50px;
     transition-duration: 1.1s;
 }
 
@@ -81,14 +83,16 @@
     border-radius: 20px;
     background-color: #fff;
     padding: 10px 20px;
+    line-height: 50px;
+    margin-bottom: 50px;
     transition-duration: 1.1s;
 }
 
 .buttonMessage:hover,
 .buttonLike:hover,
 .buttonFollow:hover{
+    transform: rotate(60deg);
     border: 5px solid #fd5e32;
-    transform: rotate(20deg);
     cursor: pointer;
 }
 
@@ -99,43 +103,39 @@
 }
 
 .rightSide {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 45%;
-    height: 95%;
-    margin: 2.5%;
+    float: right;
+    width: 225px;
+    height: 475px;
+    margin: 12.5px;
 }
 
 .posts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    line-height: 150px;
     width: 100%;
-    height: 31.6%;
+    height: 150px;
     background-color: #ff7f50;
     border-radius: 15px;
     transition-duration: 0.7s;
+    margin-bottom: 12px;
 }
 
 .likes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    line-height: 150px;
     width: 100%;
-    height: 31.6%;
+    height: 150px;
     background-color: #ff7f50;
     border-radius: 15px;
     transition-duration: 0.7s;
+    margin-bottom: 12px;
 }
 
 .follower {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    line-height: 150px;
     width: 100%;
-    height: 31.6%;
+    height: 150px;
     background-color: #ff7f50;
     border-radius: 15px;
     transition-duration: 0.7s;
