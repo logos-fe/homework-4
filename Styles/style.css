@@ -13,7 +13,7 @@
     color: #fff;
 }
 
-.leftSide {
+.left-side {
     float: left;
     text-align: center;
     width: 225px;
@@ -23,7 +23,7 @@
     margin: 12.5px;
 }
 
-.leftSide img {
+.avatar{
     margin: 50px 0;
     width: 100px;
     height: 100px;
@@ -31,17 +31,17 @@
     transition-duration: 0.7s;
 }
 
-.leftSide img:hover {
+.avatar:hover {
     transform: rotate(360deg);
 }
 
-.leftSide h1 {
+.name {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.leftSide h2 {
+.position {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 40px;
@@ -51,7 +51,7 @@
     text-align: center;
 }
 
-.buttonLike {
+.button {
     font-size: 16px;
     font-weight: 400;
     border: 2px solid #fd5e32;
@@ -64,35 +64,7 @@
     transition-duration: 1.1s;
 }
 
-.buttonFollow {
-    font-size: 16px;
-    font-weight: 400;
-    border: 2px solid #fd5e32;
-    color: #fd5e32;
-    border-radius: 20px;
-    background-color: #fff;
-    line-height: 20px;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    transition-duration: 1.1s;
-}
-
-.buttonMessage {
-    font-size: 16px;
-    font-weight: 400;
-    border: 2px solid #fd5e32;
-    color: #fd5e32;
-    border-radius: 20px;
-    background-color: #fff;
-    line-height: 20px;
-    margin-bottom: 50px;
-    padding: 10px 20px;
-    transition-duration: 1.1s;
-}
-
-.buttonMessage:hover,
-.buttonLike:hover,
-.buttonFollow:hover{
+.button:hover{
     border-top: 0.3rem solid rgba(252, 69, 2, 0.884);
     border-left: 0.3rem solid rgba(252, 69, 2, 0.884);
     font-weight: 800;
@@ -100,41 +72,19 @@
     cursor: pointer;
 }
 
-.buttonMessage:hover .span-text,
-.buttonLike:hover .span-text,
-.buttonFollow:hover .span-text{
+.button:hover .span-text {
     font-weight: 600;
 }
 
-.rightSide {
+.right-side {
     float: right;
     width: 225px;
     height: 475px;
     margin: 12.5px;
 }
 
-.posts {
-    text-align: center;
-    line-height: 150px;
-    width: 100%;
-    height: 150px;
-    background-color: #ff7f50;
-    border-radius: 15px;
-    transition-duration: 0.7s;
-    margin-bottom: 12px;
-}
-
-.likes {
-    text-align: center;
-    line-height: 150px;
-    width: 100%;
-    height: 150px;
-    background-color: #ff7f50;
-    border-radius: 15px;
-    transition-duration: 0.7s;
-    margin-bottom: 12px;
-}
-
+.posts,
+.likes,
 .follower {
     text-align: center;
     line-height: 150px;
@@ -143,6 +93,7 @@
     background-color: #ff7f50;
     border-radius: 15px;
     transition-duration: 0.7s;
+    margin-bottom: 12px;
 }
 
 .stat-number {
