@@ -23,9 +23,11 @@
 .brr {
     border-radius: 10px;
 }
+
 .number {
     font-weight: bold;
 }
+
 .container {
     width: 500px;
     height: 500px;
@@ -42,7 +44,7 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
@@ -51,9 +53,11 @@
     transition-duration: 1000ms;
 
 }
+
 .block:hover .text {
-    color:#FD5E31;
+    color: #FD5E31;
 }
+
 .panel {
     display: flex;
     flex-direction: column;
@@ -79,14 +83,14 @@ img {
     gap: 20px;
     font-size: 20px;
     line-height: 20px;
-    
+
 
 }
 
 .bc {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 button {
@@ -104,5 +108,5 @@ img:hover {
 button:hover {
     transform: rotate(25deg) scale(1.2);
     transition-duration: 1000ms;
-    border:solid orangered 3px;
+    border: solid orangered 3px;
 }
