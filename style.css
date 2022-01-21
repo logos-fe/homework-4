@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
+
+
+.mainBlock {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    background-color: rgb(219, 95, 23);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+}
+
+/* profile */
+
+.profileMenu {
+    float: left;
+    width: 50%; 
+    background: lightsalmon;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+img {
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out 0s;
+}
+img:hover {
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+.profileName {
+    padding: 50px;
+}
+.button {
+    display:inherit;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+  }
+.button button {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    border: 2px solid rgb(219, 95, 23);
+    color: rgb(219, 95, 23);
+  }
+  .button button:hover {
+    transform: rotate(15deg);
+    box-shadow: 2px 2px rgb(250, 130, 60), 4px 4px lightsalmon;
+    top: -4px;
+    left: -4px;
+    }
+
+
+/* status */
+
+
+  .profileStatus {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+  .posts { 
+    background: lightsalmon;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+    height: 100%;
+  }
+  .likes {
+    background: lightsalmon;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+    height: 100%;
+  }
+  .follower {
+    background: lightsalmon;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+    height: 100%;
+  }
+  .num {
+    padding: 5px;
+  }
+  .name {
+    margin: 0 auto;
+  }
+  .block:hover {
+    background: rgb(207, 206, 206);
+    color: rgb(219, 95, 23);
+  }
+  
