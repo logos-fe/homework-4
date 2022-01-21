@@ -1,0 +1,88 @@
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
+
+.container{
+    width: 600px;
+    height: 500px;
+    background: orangered;
+    border-radius: 10px;
+    margin: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    transform:translateX(50%);
+}
+.profile{
+    float: left;
+    width: 300px;
+    height: 470px;
+    background: coral;
+    margin: 15px;
+    border-radius: 10px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+
+}
+img:hover {
+    transform: rotate(360deg)
+}
+.action__button {
+    text-align: center;
+    margin-top: 50px;
+}
+.like,
+.follow,
+.message {
+    padding: 0.5rem 2rem;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    color: orangered;
+}
+.like:hover,
+.follow:hover,
+.message:hover {
+  transform: rotate(-10deg)
+}
+.statistic{
+    float: right;
+    width: 200px;
+    /* height: 570px; */
+    margin: 15px;
+    border-radius: 10px;
+}
+b{
+    font-family: cursive;
+}
+.post,
+.likes,
+.follower
+{
+    background: coral;
+    width: 200px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    transition-duration: 0.5s;
+
+}
+.post:hover,
+.likes:hover,
+.follower:hover{
+    background-color: grey; 
+}
+ .post:hover .stat-name ,
+ .likes:hover .stat-name,
+ .follower:hover .stat-name
+ {
+     color: orangered;
+ }
+ 
